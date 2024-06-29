@@ -19,10 +19,10 @@ html, body {
     width:100%;
     background-color: blanchedalmond;
     border: dotted 1px red;
-  
+    padding:30px;
 }
 
 .intro h1{
-    font-size: 100px;
-    line-height: 9,0px;
+    font-size: 85px;
+    line-height: 75px;
 }
