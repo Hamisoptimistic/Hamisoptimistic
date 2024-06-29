@@ -2,9 +2,27 @@
     margin:0;
     Padding:0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 html, body {
     height:100%;
     width:100%;
+}
+.main{
+    height: 100%;
+    width:100%;;
+}
+
+.intro{
+    height:40%;
+    width:100%;
+    background-color: blanchedalmond;
+    border: dotted 1px red;
+  
+}
+
+.intro h1{
+    font-size: 100px;
+    line-height: 9,0px;
 }
