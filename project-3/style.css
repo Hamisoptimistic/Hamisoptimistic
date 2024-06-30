@@ -2,15 +2,139 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 html body {
     height: 100%;
     width: 100%;
+    background-color: #F5F8FD;
 }
 
-.main{
+.main {
     height:100%;
     width:100%;
-    background-color: rgb(17, 112, 196);
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 120px;
+    align-items:start;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.nav h3,h4{
+    font-weight: 500;
+}
+.nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width:40%
+}
+.dash{
+    display:flex;
+    align-items:start;
+    gap:20px
+    
+
+}
+.nav-part2{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    gap:30px;
+}
+
+.content{
+    padding:30px 120px;
+    margin-top: 70px;
+}
+.content h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.content h1{
+    font-size: 80px;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(197, 3, 26, 0.3);
+    letter-spacing: -1px;
+    line-height: 100px;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+    padding:30px 120px;
+    margin-top: 150px;
+}
+
+.case-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px
+}
+
+.line {
+    width: 100px; /* Adjust the width as needed */
+    height: 2.5px; /* Adjust the height as needed */
+    background-color: #666; /* Adjust the color as needed */
+    margin-top: 3px;
+    
+}
+
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 120px;
+    gap:90px;
+    /* background-color: rgb(188, 122, 140); */
+}
+.elem{
+    width:50%;
+}
+.elem-img{
+    width:100%;
+    height: 600px;
+    background-color: rgb(8, 146, 146);
+    border-radius: 30px;
+    background-size: fit;
+    background-position:cover;
+    border:none;
+
+}
+
+#img1{
+    border: solid 0.5px ;
+    background-image: url("https://cdn.vectorstock.com/i/1000x1000/49/49/abstract-low-poly-stone-design-geometric-3d-vector-47744949.webp");
+}
+#img2{
+    background-image: url("https://cdn.dribbble.com/users/844462/screenshots/2421480/p4.png?resize=800x600&vertical=center");
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:20px;
+}
+.bottom h4{
+    font-weight: 400;
+}
+
+.bottom i{
+    font-size: 30px;
+    border:1px solid black;
+    border-radius:30px;
+    padding:15px 25px;    
+    transition: 0.3s;
+}
+.bottom i:hover{
+    background-color: black;
+    color:white;
+}
+
+
+
